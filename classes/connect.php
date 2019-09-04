@@ -1,7 +1,7 @@
  <?php
 
 try {
-   	$conn = new PDO('mysql:host=localhost; dbname=unn_w17022892', 'unn_w17022892', 'nufc2010');
+   	$conn = new PDO('mysql:host=localhost; dbname=unn_w17022892', 'unn_w17022892', '********');
 
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
