@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+.input-group{
+	text-align:left;
+	}
+	
+	.input-group h2{
+	color: #000;
+	font-size:16px;
+	}
+	
+		.input-group p{
+	color: #000;
+	font-size:14px;
+	}
+
+
+input[type=text], select {
+	width: 70%;
+	padding: 12px 10px;
+	margin: 0px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 70%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form {
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 30px;
+	padding-left: 0px;
+	margin: 0 auto;
+	width: 50%;
+
+}
+
+.form h1 {
+	font-size:18px;
+}
+
+.submit {
+    background-color: #CCC;
+    color: white;
+ padding: 8px 24px;
+ border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+        cursor: pointer;
+
+
+}
+
